@@ -1,7 +1,7 @@
 package com.example.dao;
 
-import org.springframework.data.repository.Repository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface Dao extends Repository<String, Integer> {
+public interface Dao extends JpaRepository<String, Integer> {
 
 }
