@@ -2,6 +2,8 @@ package com.example.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface Dao extends JpaRepository<String, Integer> {
+import com.example.domain.Customer;
+
+public interface Dao extends JpaRepository<Customer, Long> {
 
 }
